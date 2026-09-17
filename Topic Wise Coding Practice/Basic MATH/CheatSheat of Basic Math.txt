@@ -1,0 +1,101 @@
+Template:
+while(n > 0) {
+    int digit = n % 10;
+
+    // operation on digit
+
+    n /= 10;
+}
+
+n % 10       → LAST DIGIT
+n / 10       → REMOVE LAST DIGIT
+
+COUNT        → count++
+REVERSE      → rev = rev*10 + digit
+PALINDROME   → original == rev
+SUM          → sum += digit
+PRODUCT      → product *= digit
+EVEN         → digit % 2 == 0
+ODD          → digit % 2 != 0
+FIRST        → keep /10 until n < 10
+LAST         → n % 10
+
+
+PRIME
+→ exactly 2 factors
+→ check i = 2 to √n
+→ n % i == 0 → Not Prime
+
+
+PRINT PRIMES
+→ outer loop = numbers
+→ inner loop = prime checking
+
+
+COUNT PRIMES
+→ if(prime) count++
+
+
+GCD / HCF
+while(b != 0) {
+    int temp = b;
+    b = a % b;
+    a = temp;
+}
+
+System.out.println(a);
+→ while(b != 0)
+→ a % b
+→ GCD = a
+
+
+LCM
+→ (a × b) / GCD
+
+
+PERFECT NUMBER
+→ sum of proper divisors == n
+→ loop only till n/2
+
+
+ARMSTRONG
+→ sum of digitⁿ == original
+
+
+DIVISORS
+→ n % i == 0
+
+
+COUNT DIVISORS
+→ if(n % i == 0) count++
+
+
+SUM DIVISORS
+→ if(n % i == 0) sum += i
+
+The 5 patterns to memorize
+
+n % 10       → get digit
+n / 10       → remove digit
+
+n % i == 0   → i divides n
+
+count++      → counting
+
+sum += i     → summing
+
+break        → stop when condition is confirmed
+
+RECALL
+
+DIGIT      → %10
+REMOVE     → /10
+DIVISIBLE  → % == 0
+COUNT      → ++
+SUM        → +=
+REVERSE    → rev*10 + digit
+PRIME      → check √n
+GCD        → Euclidean algorithm
+LCM        → a*b/GCD
+PERFECT    → divisor sum == n
+ARMSTRONG  → digitⁿ sum == original
