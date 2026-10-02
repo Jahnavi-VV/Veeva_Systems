@@ -22,3 +22,5 @@ count--;
 System.out.println(candidate);
 }
 }
+
+/*NOTE : When a count becomes o choose new candidate ,same candidate increase the count and different candidate decrease the count like cancel it*/
