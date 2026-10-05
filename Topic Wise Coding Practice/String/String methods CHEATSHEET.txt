@@ -1,0 +1,90 @@
+s.length()
+
+s.charAt(i)
+
+s.substring(start)
+
+s.substring(start,end)
+
+s.indexOf('a')
+
+s.lastIndexOf('a')
+
+s.contains("abc")
+
+s.startsWith("abc")
+
+s.endsWith("abc")
+
+s.equals(t)
+
+s.equalsIgnoreCase(t)
+
+s.compareTo(t)
+
+s.toUpperCase()
+
+s.toLowerCase()
+
+s.trim()
+
+s.strip()
+
+s.replace('a','b')
+
+s.replace("abc","xyz")
+
+s.replaceAll("[0-9]","")
+[0-9]       → digits
+[a-z]       → lowercase
+[A-Z]       → uppercase
+[^a-zA-Z]   → non-letters
+\\s         → whitespace
+
+s.split(" ")
+String s="Java Python C";
+
+String[] words=s.split(" ");
+
+for(String x:words)
+    System.out.println(x);
+
+s.toCharArray()
+
+s.isEmpty()
+
+s.isBlank()
+
+s.concat(t)
+
+
+
+CHARACTER METHODS
+Character.isLetter(c)
+Character.isDigit(c)
+Character.isLetterOrDigit(c)
+Character.isWhitespace(c)
+Character.isUpperCase(c)
+Character.isLowerCase(c)
+Character.toUpperCase(c)
+Character.toLowerCase(c)
+
+
+STRING BUILDER METHODS
+StringBuilder sb=new StringBuilder("Hello");
+
+sb.append(" Java");
+sb.reverse();
+
+System.out.println(sb);
+
+
+append()
+insert()
+delete()
+deleteCharAt()
+replace()
+reverse()
+charAt()
+setCharAt()
+length()
