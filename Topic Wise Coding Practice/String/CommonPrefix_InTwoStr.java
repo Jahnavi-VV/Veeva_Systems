@@ -35,3 +35,4 @@ a2[i]=sc.next();
 findCommonPrefix(a1,a2);
 }
 }
+
